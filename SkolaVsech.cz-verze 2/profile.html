@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="skolavsech">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+
+<!-- BOOSTRAP  --> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!-- FONT AWESOME -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<!-- OWN LINKS -->
+<link rel="stylesheet" type="text/css" href="./css/main.css">
+<link rel="stylesheet" type="text/css" href="./css/navbar.css">
+  <title>ŠkolaVšech.cz</title>
+</head>
+<body>
+    
+    <!-- NAVBAR -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-left sticky-top ">
+
+ <a class="navbar-brand" href="#" style="font-size: 30px">ŠkolaVšech</a>
+
+         <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+        <ul class="navbar-nav text-right">
+            <li class="nav-item active">
+                <a class="nav-link" href="#"> <i class="fa fa-list" style="font-size:35px;"></i> </a>
+            </li>
+
+            <li class="nav-item active">
+                <a class="nav-link" href="#"> <i class="fas fa-plus" style='font-size: 35px'></i> </a>
+            </li>
+        </ul>
+    </div>
+     <form class="ml-3 my-auto d-inline w-100">
+            <div class="input-group">
+              <input type="text" class="form-control border-right-0" placeholder="Hledat"> 
+              <div class="input-group-append">
+                <button class="btn btn-outline-primary border-left-0" type="button">NAJDI</button>
+              </div>
+            </div>
+        </form>
+               <a class="nav-link" href="#profileLink"> <i class='fas fa-user-circle' style='font-size: 35px'></i> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+    
+    
+    
+    <!-- PROFILE-TOP -->
+     <div class="container text-center">
+         
+    <h1 id="name" class="mb-4"> Ladislav Omáčka </h1>
+    
+        <div class="row profile-top m-2">
+                        
+            <div class="col-sm-4 contact border">
+             <div class="mb-3">
+                 <h4> Základní informace </h4>
+             </div>
+              <p id="nickname"> #nickname</p>
+              <p id="school"> #Škola</p>
+              <p id="email"> #email</p>
+              <p id="tel-number"> #tel. cislo</p>
+            </div>
+            <div class="col-sm-4 description border">
+              <h4>  O mně</h4>
+                <p id="description">  #nejakypopis #nejakypopis #nejakypopis #nejakypopis #nejakypopis #nejakypopis #nejakypopis #nejakypopis </p>
+            </div>
+            <div class="col-sm-4 people border">
+               <h4> Lidé</h4>
+                <div class="followers mb-2">
+                    <a href="#"><p> Sledující (#počet) </p> </a>    
+                </div>
+                <div class="following mb-2">
+                    <a href="#"> <p> Sleduje (#počet)</p> </a>
+                </div>
+                <div class="follow mb-2">
+                    <a href ="#"><p> <i class="fas fa-user-plus"></i> Sledovat </p> </a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <hr>
+    
+    <!-- SEZNAMY SPRAVOVANE UZIVATELEM #JMENO -->
+    <div class="container profile-own-lists text-center">
+        <h2 class="mb-4"> Seznamy spravované uživatelem: #jméno</h2>
+        <div class="row">
+             <div class="col-sm-4 ">
+                <div class="border">
+                 <h6>Zápisky spravované uživatelem #name</h6>
+                    <p> <a href="#"> <i class="far fa-save"></i> </a> <a href="#"> <i class="far fa-save"></i> </a></p>
+                 </div>
+            </div> 
+            <div class="col-sm-4 ">
+                <div class="border">
+                 <h6>Zápisky spravované uživatelem #name</h6>
+                 <p> </p>
+                 </div>
+            </div>
+            <div class="col-sm-4 ">
+                <div class="border">
+                 <h6>Zápisky spravované uživatelem #name</h6>
+                 <p> </p>
+                 </div>
+            </div>
+        </div>
+        </div>
+    
+    <hr>
+    
+    <!-- OSTATNI SEZNAMY -->
+    <div class="container profile-own-lists text-center">
+        <h2 class="mb-4"> Ostatní seznamy</h2>
+        <div class="row">
+             <div class="col-sm-4 border ">
+                 <h6>#Nazev seznamu #Nazev seznamu #Nazev seznamu</h6>
+                 <p> </p>
+            </div> 
+            <div class="col-sm-4 border">
+                <h6>#Nazev seznamu #Nazev seznamu #Nazev seznamu</h6> 
+            </div>
+            <div class="col-sm-4 border">
+                <h6>#Nazev seznamu #Nazev seznamu #Nazev seznamu</h6>
+            </div>
+        </div>
+        </div>
+    
+</body>
+</html>
+
+
+<!--    
+    0) Jméno a příjmení 0,5) @nickname  1) Sleduje, 2) Sledující 3) Popisek (kam si kdo  chce může hodit link na sociální sítě) 4) Tlačítko follow 5) Nastavení (aby si změnil popisek, heslo, email apod. :-D) a 6) Část Seznamy spravované uživatelem #Jméno a 7) Ostatní seznamy
+    
+       Základní informace           Popisek                     
+    0) Jméno a Příjmení             #NecoNecoNecoNeco           Sledjící + počet       
+       @nickname#                   #NecoNecoNecoNeco           Sleduje + počet
+       #Škola                       #NecoNecoNecoNeco           Sledovat 
+       #email                       #NecoNecoNecoNeco
+       #tel. cislo                  #NecoNecoNecoNeco
+ -->
