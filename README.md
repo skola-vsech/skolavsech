@@ -1,4 +1,4 @@
-# skolavsech
+# ŠkolaVšech.cz
 
 ### Učitelé, -  co nutíte ostatní, aby slovo po slovu psali to, co diktujete. FUCK YOU!
 ### Roztrhané sešity, s písmem jak od opice. DO KOŠE S VÁMA!
