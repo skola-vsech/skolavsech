@@ -4,7 +4,7 @@ body {
 }
 
 p {
-    margin-bottom: 1px;
+    margin-bottom: 0px;
 }
 
 /* NAVBAR */ 
@@ -29,6 +29,8 @@ p {
 
 
 /* Login and Register Form :D */
+
+
 :root {
   --input-padding-x: 1.5rem;
   --input-padding-y: .75rem;
@@ -143,11 +145,18 @@ p {
   background-color: #3b5998;
 }
 
-/* PROFILE-TOP */
-
 .register-form {
 	margin-top: 80px;
 }
-.profile-top {
-    background: Beige	
+
+/* PROFILE-TOP */
+
+
+
+.seznam {
+    background: Beige;
+}
+
+.profil-vrch {
+    background: Beige;
 }
