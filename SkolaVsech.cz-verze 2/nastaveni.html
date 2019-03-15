@@ -18,54 +18,81 @@
 
 <body>
 
-    <div class="container nastaveni">
-        <div class="info">
+    <div class="container nastaveni mb-5">
+        <div class="zmena-zaklad mb-5">
             <hr>
-            <h2 class="text-center"> Základní informace </h2>
+            <h2 class="text-center"> 1) Základní informace </h2>
             <hr>
 
-            <form> <!-- pridej action="", pro akci po stisknuti Dokoncit zmeny -->
+            <form>
+                <!-- pridej action="", pro akci po stisknuti Dokoncit zmeny -->
                 <div class="form-row">
                     <div class="form-group col">
                         <label for="jmeno"> Jméno</label>
-                        <input type="text" class="form-control" id="jmeno" placeholder="Jméno">
+                        <input type="text" class="form-control" id="jmeno" placeholder="Jméno"> <!-- do placeholderu pridej jeho jmeno, ktere uz zadal pri registraci -->
                     </div>
                     <div class="form-group col">
                         <label for="prijmeni"> Příjmení</label>
-                        <input type="text" class="form-control" id="prijmeni" placeholder="Příjmení">
+                        <input type="text" class="form-control" id="prijmeni" placeholder="Příjmení"> <!-- do placeholderu pridej jeho prijmeni, ktere uz zadal pri registraci -->
                     </div>
                 </div>
-                
-                <div class="form-group">
-                        <label for="prijmeni"> Přezdívka</label>
-                        <input type="text" class="form-control" id="prijmeni" placeholder="Příjmení">
-                </div>
-                
+
+
                 <div class="form-group">
                     <label for="omne"> O mně</label>
                     <textarea class="form-control" rows="3" id="omne" placeholder="Napiš o sobě něco ostatním"></textarea>
-                    <small class="form-text text-muted">Maximální počet znaků je omezen na 70</small>
+                    <small class="form-text text-muted">Maximální počet znaků je omezen na 70</small> <!-- V pripade, ze uzivatel uz nekdy zadaval svuj popisek, tak sem uz vloz ten popisek -->
                 </div>
                 <div class="row">
                     <div class="col text-center">
-                        <button type="submit" class="btn btn-primary">Dokončit změny</button>
+                        <button type="submit" class="btn btn-primary">Uložit změny</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <hr>
+        <h2 class="text-center"> 2) Změna emailu </h2>
+        <hr>
+
+        <div class="zmena-email mb-5">
+            <form>
+                <div class="form-group">
+                    <label for="aktualni-email"> Aktualni email </label>
+                    <input type="email" class="form-control" id="aktualni-email" readonly="readonly" placeholder="LadislavVomacka@gmail.com"> <!-- do placeholderu zadat uzivateluv aktualni email -->
+                </div>
+                <div class="form-group">
+                    <label for="novy-email"> Nový email </label>
+                    <input type="email" class="form-control" id="novy-email" placeholder="Tvůj nový email">
+                </div>
+                <div class="row">
+                    <div class="col text-center">
+                        <button type="submit" class="btn btn-primary">Uložit změny</button>
                     </div>
                 </div>
             </form>
         </div>
         
+        <hr>
+        <h2 class="text-center">3) Změna hesla </h2>
+        <hr>
         
-        <div class="zmena-ostatni">
-
-
+          <div class="zmena-heslo">
+            <form>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="aktualni-email"  placeholder="Zadejte svoje nové heslo">
+                    
+                </div>
+                
+                <div class="row">
+                    <div class="col text-center">
+                        <button type="submit" class="btn btn-primary">Uložit změny</button>
+                    </div>
+                </div>
+            </form>
         </div>
 
     </div>
-
-
-    <hr>
-    <h2 class="text-center"> Změna emailu </h2>
-    <hr>
 
 
 
