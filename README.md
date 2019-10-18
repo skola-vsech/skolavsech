@@ -6,4 +6,4 @@
 
 That's it. ŠkolaVšech. Kdokoliv bude moct přidávat svoje zápisky. Vytvářet seznamy, stejně jako na YouTube :-) Hodnotit práci ostatních a spolupracovat spolu :-) 
 
-Projekt je aktuálně ve vývoji.
+Projekt aktuálně odložen.
